@@ -1,0 +1,14 @@
+{
+  "name": "BestOImgur",
+  "version": "1.0.0",
+  "description": "Job pre-assignment. Singple pager imgur app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "M H",
+  "dependencies" : {
+    "express" : "^4.13.4",
+    "mongoose": "^4.4.12"
+  }
+}
