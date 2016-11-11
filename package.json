@@ -7,8 +7,9 @@
     "test": "test"
   },
   "author": "M H",
-  "dependencies" : {
-    "express" : "^4.13.4",
+  "dependencies": {
+    "express": "^4.13.4",
+    "fs": "0.0.1-security",
     "mongoose": "^4.4.12"
   }
 }
