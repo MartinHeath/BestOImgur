@@ -2,9 +2,7 @@ var mongoose = require ("mongoose");
 var imageSchema = mongoose.Schema({
   title: String,
   description: String,
-  by: String,
-  tags: [{body: String}],
-  likes: Number
+  link: String
 });
 
 Image = mongoose.model("image", imageSchema);

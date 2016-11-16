@@ -8,48 +8,42 @@
     <title>BestOImgur!</title>
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
-    <link rel="stylesheet" href="/css/main.css"
+    <link rel="stylesheet" href="css/main.css"
 
     <!-- SPELLS -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
-    <script src="core.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
     <div class="container">
         <!-- HEADER AND TODO COUNT -->
         <div class="jumbotron text-center">
-            <h1>I'm a Todo-aholic</h1>
-        </div>
-
-        <!-- TODO LIST -->
-        <div id="todo-list" class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-
-                <!-- LOOP OVER THE TODOS IN $scope.todos -->
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox" > Lol
-                    </label>
-                </div>
-
-            </div>
+            <h1>I'm an image-aholic</h1>
         </div>
 
         <!-- FORM TO CREATE TODOS -->
         <div id="todo-form" class="row">
             <div class="col-sm-8 col-sm-offset-2 text-center">
-                <form>
+                <form id="searchForm">
                     <div class="form-group">
 
                         <!-- BIND THIS VALUE TO formData.text IN ANGULAR -->
-                        <input type="text" class="form-control input-lg text-center" placeholder="I want to buy a puppy that will love me forever">
+                        <input type="text" class="form-control input-lg text-center" placeholder="Enter keyword, like 'Silly Cat'" id="searchKey">
                     </div>
 
                     <!-- createToDo() WILL CREATE NEW TODOS -->
-                    <button type="submit" class="btn btn-primary btn-lg">Add</button>
+                    <button type="submit" class="btn btn-primary btn-lg" id="searchBut">Search</button>
                 </form>
+            </div>
+        </div>
+
+        <!-- TODO LIST -->
+        <div id="image-list" class="row">
+          <h2 id= "result"></h2>
+            <div class="col-sm-4 col-sm-offset-4">
+                <!-- LOOP OVER THE TODOS IN $scope.todos -->
             </div>
         </div>
     </div>

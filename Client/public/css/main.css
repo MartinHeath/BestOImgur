@@ -1,0 +1,20 @@
+
+  html{
+    overflow-y:scroll;
+    height: 100%;
+  }
+  body{
+    height: 100%;
+
+  }
+  #image-list{
+    display: none;
+    margin-bottom:30px;
+    background: #eded2f; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #551033 0%, #8B7B8B 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#551033), color-stop(100%,#8B7B8B)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #551033 0%,#8B7B8B 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #551033 0%,##8B7B8B 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #551033 0%,#8B7B8B 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #551033 0%,#8B7B8B 100%); /* W3C */
+  }
