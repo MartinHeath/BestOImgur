@@ -25,3 +25,29 @@ module.exports.controller = function(app){
     });
   });
 };
+
+
+//multi keyword search. Left unimplemented due to time constraints.
+/*var fullSearch = function(items){
+  var images ='';
+  console.log("LENGTH: " + items.keyWords.length);
+  for(var i = 0; i < items.keyWords.length; i++){
+    console.log("KEYWORD: " + items.keyWords[i]);
+    images += sers(items.keyWords[i]);
+  }
+  return(images);
+};
+
+var sers = function (item){
+  console.log("ITEM: " + item);
+  Image.find({$or: [{"title": {$regex: ".*"+ item +".*"}}, {"description": {$regex: ".*"+ item +".*"}}]},
+    function (err, image){
+    if(err){
+      return(err);
+    }
+    else{
+      console.log("IMAGE: " + image);
+      return image;
+    }
+  });
+};*/
