@@ -1,19 +1,15 @@
 {
   "name": "BestOImgur",
   "version": "1.0.0",
-  "description": "Job pre-assignment. Singple pager imgur app",
+  "description": "Job pre-assignment. Single pager imgur app",
   "main": "server.js",
   "scripts": {
-    "test": "mocha --timeout 10000"
+    "test": "test"
   },
   "author": "M H",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.13.4",
     "mongoose": "^4.4.12"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.2"
   },
 }
