@@ -4,7 +4,6 @@
   "description": "Job pre-assignment. Singple pager imgur app",
   "main": "server.js",
   "scripts": {
-    "start": "SET NODE_ENV=dev && node server.js",
     "test": "mocha --timeout 10000"
   },
   "author": "M H",
