@@ -8,7 +8,7 @@ var app = express();
 
 
 //database connection
-mongoose.connect('mongodb://localhost/Imgur');
+mongoose.connect('mongodb://guest:GuestPass1212@ds155747.mlab.com:55747/heroku_5zscblvj/');
 app.use(express.static(path.join(__dirname, 'Client/public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
