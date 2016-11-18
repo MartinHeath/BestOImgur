@@ -24,4 +24,4 @@ fs.readdirSync('./Server/Controller/').forEach(function (file) {
 });
 
 app.listen(process.env.PORT || 8080);
-console.log("Server listening on port" + process.env.port);
+console.log("Server listening on port 8080 or environment specific");
